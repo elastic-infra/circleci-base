@@ -1,4 +1,5 @@
 FROM circleci/ruby:2.5
+LABEL maintainer "Tomoya KABE<kabe@elastic-infra.com>"
 
 ARG tf_ver=0.11.8
 RUN sudo apt-get update && sudo apt-get install -y \
