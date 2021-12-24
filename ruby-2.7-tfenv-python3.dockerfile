@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.7
+FROM cimg/ruby:2.7
 LABEL maintainer "Tomoya KABE<kabe@elastic-infra.com>"
 
 RUN sudo ln -sf /usr/bin/python3 /usr/bin/python
